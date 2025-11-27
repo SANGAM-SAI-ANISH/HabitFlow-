@@ -52,6 +52,12 @@ backend/   # Flask API and SQLite database
 frontend/  # React client (Vite + Tailwind)
 ```
 
+## Screenshoots
+
+<img width="1919" height="973" alt="Screenshot 2025-11-27 194106" src="https://github.com/user-attachments/assets/224893a7-5f7c-4023-b780-6b7a421dad82" />
+
+
+<img width="1919" height="968" alt="Screenshot 2025-11-27 194159" src="https://github.com/user-attachments/assets/3b14f81a-52af-4994-ba18-117bc5b7263b" />
 
 
 Happy tracking! 🎯
