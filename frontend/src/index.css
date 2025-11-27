@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #050b1d;
+  color: white;
+}
+
+:root {
+  --accent-from: #3b82f6;
+  --accent-to: #8b5cf6;
+}
+
+.animate-text {
+  background-size: 200% 200%;
+  animation: gradient 6s ease infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* dark-mode fallback */
+.dark body {
+  background-color: #030416;
+  color: #e6eef8;
+}
+
+/* small utilities */
+input::placeholder, textarea::placeholder { color: #94a3b8; }
