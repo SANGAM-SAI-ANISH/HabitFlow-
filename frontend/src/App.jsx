@@ -4,7 +4,7 @@ import Navbar from './components/Navbar.jsx';
 import Toasts from './components/Toasts.jsx';
 import Celebration from './components/Celebration.jsx';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 
 export default function App() {
   const [habits, setHabits] = useState([]);
